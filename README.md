@@ -14,7 +14,7 @@ A friendly, irreverent, and rigorously engineered API for running Qwen3 (and too
 
 ## Quick Start
 ```bash
-git clone https://github.com/your-org/qwenywhere.git
+git clone https://github.com/Project-Unicron/Qwenywhere.git
 cd qwenywhere
 docker compose up -d
 ```
