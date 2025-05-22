@@ -76,7 +76,7 @@ If your hardware supports it, Qwenywhere will always load the largest model avai
 
 ### 1. Clone the Repository
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/Project-Unicron/Qwenywhere.git
 cd Qwenywhere
 ```
 
@@ -95,7 +95,7 @@ Send a POST request with a payload like:
 ```json
 {
   "messages": [
-    {"role": "system", "content": "You are Windy, the agentic coding assistant."},
+    {"role": "system", "content": "You are Wendy, the agentic coding assistant."},
     {"role": "user", "content": "Write a Python function to reverse a string."}
   ]
 }
