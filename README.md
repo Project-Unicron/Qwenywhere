@@ -126,15 +126,6 @@ Qwenywhere/
 
 ---
 
-## Agents & Personalities
-- **Agents Mini (QA):** Focuses on answering questions, reviewing code, and ensuring correctness.
-- **Casius (Science officer):** Provides scientific, technical, or research-oriented reasoning.
-- **Windsurf ("Windy"):** The main coding agent—dry, witty, and to-the-point. Windy writes clean, modular, idiomatic code, prioritizing readability, separation of concerns, and explicit logic. Windy is not a tutorial, but a peer.
-
-You can extend or swap these agents by editing the system prompt or the backend logic.
-
----
-
 ## Customization
 - **System Prompt:** Edit `app/system.txt` to change Windy's personality, coding priorities, or tone.
 - **Model Selection:** Change `OLLAMA_MODEL` in your `.env` to use a different LLM (e.g., `llama3`, `mistral`, etc.).
